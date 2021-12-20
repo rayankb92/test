@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: Pacifico, serif;
+    background: #333333;
+    max-height: 100vh;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: #00B8A9;
+    margin-top: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #00B8A9;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.player1, .player2 {
+    margin: 0 50px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #333;
+}
+
+footer p {
+    font-size: 24px;
+    color: #fff;
+}
